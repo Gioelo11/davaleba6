@@ -4,8 +4,8 @@
     margin: 0 auto;
     background-color: #ffffff;
 }
+
 header{
-   
     display: flex;
     justify-content: space-between;
     padding: 29px 139px 30px 139px;
@@ -19,7 +19,6 @@ ul{
 li{
     font-size: 13px;
     color:#8172d5
-    
 }
 .search{
     width: 227px;
@@ -27,10 +26,8 @@ li{
     border-radius: 5px;
     background-color: #f2f5f8;
    justify-items: end;
-    
-   
-
 }
+
 i{
     width: 37px;
     height: 37px;
@@ -39,10 +36,6 @@ i{
     background-color: #8172d5;
     font-size: 20px;
     color: #ffffff
-
-}
-.fa-magnifying-glass{
-    
 }
  
 /* section */
@@ -51,16 +44,12 @@ section{
     width: 100%;
     height: 1017px;
     margin: 0 auto;
-    background-color:gainsboro
-    
-    
+    background-color:gainsboro 
 }
 h2{
     padding-top: 59px;
     padding-left: 140px;
     font-size: 18px;
-    
-
 }
 .cards{
     width: 80%;
@@ -69,13 +58,9 @@ h2{
     padding-top: 28px;
     flex-wrap: wrap;
     margin: 0 auto;
-    
+    margin-bottom: 108px;
     gap: 16px;
-    align-content:space-between 59px
-    
-    
-
-    
+    align-content:space-between
 }
 .card{
     width: 23%;
@@ -84,19 +69,12 @@ h2{
     background-color: #ffffff;
     padding-top: 18px;
     margin: 0 auto;
-    border-radius: 10px;
-    
-    
-    
-    
-    
+    border-radius: 10px;   
 }
 .card_img{
     width: 86.15%;
     height: 125px;
     margin-left: 18px;
-   
-   
 }
 .cars_text{
     width: 201px;
@@ -105,8 +83,28 @@ h2{
     margin-bottom: 21px;
     margin-top: 75px;
     margin-left: 18px;
-    /* border: 2px solid red; */
-
     justify-content: center;
-   
+}
+
+/* footer */
+
+.footer_container{
+    width: 100%;
+    height: 70px;
+    background-color: #758bfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 139px;
+    padding-right: 138px;
+    gap: 112px;
+    
+}
+.f_photo{
+    width: 48;
+    height: 12px;
+}
+.f_text{
+    color: #ffffff;
+    font-size: 14px;
 }
